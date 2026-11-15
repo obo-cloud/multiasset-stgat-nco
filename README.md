@@ -11,13 +11,13 @@ Official open-source data and code repository for the research paper:
 
 ---
 
-## 📌 Overview
+## Overview
 
 This repository provides an end-to-end reproducible quantitative finance and deep learning pipeline implementing **Dynamic Spatio-Temporal Graph Attention Networks with Nested Clustered Optimization (ST-GAT-NCO)** for tactical multi-asset allocation.
 
 Traditional portfolio optimization methods, such as Markowitz Mean-Variance Optimization (MVO), suffer from acute covariance ill-conditioning. While hierarchical clustering techniques (e.g., Hierarchical Risk Parity and classical Nested Clustered Optimization) insulate portfolios from covariance noise, they rely on static pairwise Pearson correlation metrics that fail to capture time-varying, asymmetric downside risk spillovers across heterogeneous asset classes.
 
-### 🌟 Key Innovations
+### Key Innovations
 1. **Causal Temporal Dynamics:** Extracts multi-horizon momentum and downside volatility via causal dilated 1D-convolutions without lookahead leakage.
 2. **Multi-Head Graph Attention:** Dynamically learns continuous spatial node representations and topological cross-asset risk dependencies over time-varying market graphs.
 3. **GNN-Guided Downside NCO:** Derives a non-Euclidean angular metric distance space from learned graph embeddings to direct two-stage downside semi-variance optimization.
@@ -25,7 +25,7 @@ Traditional portfolio optimization methods, such as Markowitz Mean-Variance Opti
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 multiasset-stgat-nco/
@@ -61,7 +61,7 @@ multiasset-stgat-nco/
 
 ---
 
-## 📊 Audited Empirical Results (2020–2026 Out-of-Sample, 73 Months)
+## Audited Empirical Results (2020–2026 Out-of-Sample, 73 Months)
 
 All metrics are evaluated net of 10 bps transaction costs with an annualized risk-free rate $r_f = 3.50\%$:
 
@@ -78,7 +78,7 @@ All metrics are evaluated net of 10 bps transaction costs with an annualized ris
 
 ---
 
-## 🚀 Quickstart & Reproduction
+## Quickstart & Reproduction
 
 ### 1. Installation
 Clone the repository and install the required dependencies:
@@ -109,7 +109,7 @@ python src/plot_figures.py
 
 ---
 
-## 📜 Citation
+## Citation
 
 If you find this code or research useful in your work, please cite:
 
@@ -124,5 +124,5 @@ If you find this code or research useful in your work, please cite:
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
