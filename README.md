@@ -35,14 +35,14 @@ multiasset-stgat-nco/
 │   ├── multiasset_daily_prices.csv        # Historical daily adjusted close prices (2018–2026)
 │   ├── macro_monthly_levels.csv           # Macroeconomic regime series (CBOE VIX, 13-week T-Bill)
 │   └── data_dictionary.md                 # Data sources, proxy identifiers, and accounting definitions
-├── figures/                               # Publication-grade vector figures (.pdf and .png)
-│   ├── fig_gnn_framework.pdf              # End-to-end ST-GAT-NCO architectural pipeline
-│   ├── fig1_cumulative_wealth.pdf         # Out-of-sample cumulative wealth trajectories (log-scale)
-│   ├── fig2_drawdowns.pdf                 # Underwater drawdown comparisons
-│   ├── fig3_attention_graph.pdf           # Learned multi-head graph attention topology
-│   ├── fig4_dendrogram_embeddings.pdf     # Hierarchical dendrogram in latent GNN embedding space
-│   ├── fig5_weights_allocation.pdf        # Dynamic asset allocation area plot across macro regimes
-│   └── fig6_performance_comparison.pdf   # Risk-adjusted performance bar chart summary
+├── figures/                               # Publication-grade figures (.png)
+│   ├── fig_gnn_framework.png              # End-to-end ST-GAT-NCO architectural pipeline
+│   ├── fig1_cumulative_wealth.png         # Out-of-sample cumulative wealth trajectories (log-scale)
+│   ├── fig2_drawdowns.png                 # Underwater drawdown comparisons
+│   ├── fig3_attention_graph.png           # Learned multi-head graph attention topology
+│   ├── fig4_dendrogram_embeddings.png     # Hierarchical dendrogram in latent GNN embedding space
+│   ├── fig5_weights_allocation.png        # Dynamic asset allocation area plot across macro regimes
+│   └── fig6_performance_comparison.png   # Risk-adjusted performance bar chart summary
 ├── results/                               # Tabular backtest outputs and transaction ledgers
 │   ├── performance_metrics.csv            # Audited summary risk-adjusted metrics across all benchmarks
 │   ├── strategy_monthly_returns.csv       # Realized monthly out-of-sample return series
@@ -53,7 +53,6 @@ multiasset-stgat-nco/
 │   ├── gnn_nco_allocator.py               # Downside NCO solver and GNN metric distance functions
 │   ├── run_backtest.py                    # Non-anticipative walk-forward simulation engine
 │   └── plot_figures.py                    # Publication figure generator
-├── paper_stgat_nco_multiasset.pdf         # Complete compiled research paper
 ├── requirements.txt                       # Python dependencies
 ├── LICENSE                                # MIT Open Source License
 └── README.md                              # Project documentation
