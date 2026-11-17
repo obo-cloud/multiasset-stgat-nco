@@ -2,7 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![arXiv](https://img.shields.io/badge/arXiv-2611.xxxxx-b31b1b.svg)](https://arxiv.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2611.19903-b31b1b.svg)](https://arxiv.org/abs/2611.19903)
+[![DOI](https://img.shields.io/badge/DOI-10.48550%2FarXiv.2611.19903-blue.svg)](https://doi.org/10.48550/arXiv.2611.19903)
 
 Official open-source data and code repository for the research paper:  
 **"Dynamic Spatio-Temporal Graph Attention Networks with Nested Clustered Optimization for Multi-Asset Portfolios"**  
@@ -114,10 +115,12 @@ If you find this code or research useful in your work, please cite:
 
 ```bibtex
 @article{supriadi2026stgat,
-  author = {Supriadi},
-  title = {Dynamic Spatio-Temporal Graph Attention Networks with Nested Clustered Optimization for Multi-Asset Portfolios},
-  journal = {IEEE Transactions on Neural Networks and Learning Systems (Preprint)},
-  year = {2026}
+  author  = {Supriadi},
+  title   = {Dynamic Spatio-Temporal Graph Attention Networks with Nested Clustered Optimization for Multi-Asset Portfolios},
+  journal = {arXiv preprint arXiv:2611.19903 [q-fin.PM]},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2611.19903},
+  doi     = {10.48550/arXiv.2611.19903}
 }
 ```
 
